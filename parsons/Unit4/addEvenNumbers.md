@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Add Even Numbers
+description: Drag or shuffle the blocks of code to create a function that adds only the even numbers in a list. Remember to indent where appropriate by dragging blocks to the right.
 ---
 
 <div id="sortableTrash" class="sortable-code"></div> 
@@ -16,7 +17,7 @@ title: Add Even Numbers
     "	totalOfAllEvenNumbers = 0\n" +
     "	for num in listOfNumbers:\n" +
     "      if num % 2 == 0:\n" +
-    "      	totalOfAllEvenNumbers += 1\n" +
+    "      	totalOfAllEvenNumbers += num\n" +
     "	return totalOfAllEvenNumbers\n" +
     "      	";
   var parsonsPuzzle = new ParsonsWidget({
